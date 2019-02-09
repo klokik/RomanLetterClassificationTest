@@ -201,13 +201,13 @@ def main(unused_argv):
 
   with tf.Session() as sess:
     # Train the model
-    # for i in range(40):
-    #   roman_classifier.train(
-    #     input_fn=train_input_fn,
-    #     steps=500,
-    #     hooks=[logging_hook])
-    #   eval_results = roman_classifier.evaluate(input_fn=eval_input_fn)
-    #   print(eval_results)
+    for i in range(40):
+      roman_classifier.train(
+        input_fn=train_input_fn,
+        steps=500,
+        hooks=[logging_hook])
+      eval_results = roman_classifier.evaluate(input_fn=eval_input_fn)
+      print(eval_results)
 
     predicted_ids = []
     predictions = roman_classifier.predict(input_fn=eval_input_fn)

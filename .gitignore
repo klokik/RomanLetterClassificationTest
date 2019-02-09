@@ -1,0 +1,13 @@
+
+
+img001.bmp
+*.swp
+~*
+*.xcf
+.*
+*.pickle
+
+!.gitignore
+
+.ipynb_checkpoints/*
+

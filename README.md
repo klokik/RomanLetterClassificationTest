@@ -2,7 +2,8 @@
 ---
 
  This project is my solution to hackathon's data-science qualification task.
- Hackathon name is avoided to prevent plagiarism
+ 
+ Hackathon name is avoided to prevent plagiarism.
 
 ### Dependecies
 
